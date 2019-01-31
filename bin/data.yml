@@ -1,0 +1,105 @@
+band:
+ &popipa 0: popipa
+ &afterglow 1: afterglow
+ &harohapi 2: harohapi
+ &pasupare 3: pasupare
+ &roselia 4: roselia
+
+position: 
+ &vocalist 1: vocalist
+ &guitarist 2: guitarist
+ &bassist 3: bassist
+ &drummer 4: drummer
+ &other 5: piano/dj
+
+character:
+#
+# Boppin' Party area
+#
+ kasumi: 
+  band: *popipa
+  position: *vocalist
+ tae:
+  band: *popipa
+  position: *guitarist
+ rimi:
+  band: *popipa
+  position: *bassist
+ saaya:
+  band: *popipa
+  position: *drummer
+ arisa:
+  band: *popipa
+  position: *other
+#
+# Afterglow area
+#
+ ran:
+  band: *afterglow
+  position: *vocalist
+ moca:
+  band: *afterglow
+  position: *guitarist
+ himari:
+  band: *afterglow
+  position: *bassist
+ tomoe:
+  band: *afterglow
+  position: *drummer
+ tsugumi:
+  band: *afterglow
+  position: *other
+#
+# Hello! Happy! Warudo! area
+#
+ kokoro:
+  band: *harohapi
+  position: *vocalist
+ kaoru:
+  band: *harohapi
+  position: *guitarist
+ hagumi:
+  band: *harohapi
+  position: *bassist
+ kanon:
+  band: *harohapi
+  position: *drummer
+ misaki:
+  band: *harohapi
+  position: *other
+#
+# Pastel Palletes area
+#
+ aya:
+  band: *pasupare
+  position: *vocalist
+ hina:
+  band: *pasupare
+  position: *guitarist
+ chisato:
+  band: *pasupare
+  position: *bassist
+ maya:
+  band: *pasupare
+  position: *drummer
+ eve:
+  band: *pasupare
+  position: *other
+#
+# Roselia area
+#
+ yukina:
+  band: *roselia
+  position: *vocalist
+ sayo:
+  band: *roselia
+  position: *guitarist
+ lisa:
+  band: *roselia
+  position: *bassist
+ ako:
+  band: *roselia
+  position: *drummer
+ rinko:
+  band: *roselia
+  position: *other

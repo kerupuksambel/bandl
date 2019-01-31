@@ -1,0 +1,50 @@
+/* Argument List */
+
+-c=<string> :specific character
+-t=<char> : trained / untrained (y,n)
+
+
+/* Example */
+bandl -c=hina -t=y //download some hina trained card
+
+
+
+
+
+
+
+
+
+
+/* Argument List (Not yet implemented) */
+-i=<int> : specific id
+--id
+
+-a=<string> : all cards
+--all
+
+-b=<string> : specific band
+--band
+
+-c=<string> : specific character
+--character
+
+-t=<bool> : un/trained
+--trained
+
+-o=<dir> : output dir 
+--out
+
+-v : show all log
+--verbose
+
+--about : about the app
+
+
+/* Specific band, and trained cards */
+
+//Downloading all pasupare trained cards
+bandl --band=pasupare --trained=Y --output=pasupare_cards/
+
+//Downloading all hina cards (un/trained included)
+bandl -c=hina_hikawa
